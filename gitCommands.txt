@@ -1,0 +1,10 @@
+git init -->
+git add .  or fpu file name instead of dot
+git commit -m "commit messege"
+git remote add origin " github lonk"
+git push -u origin master
+git status
+
+ubantu
+ls
+clear
