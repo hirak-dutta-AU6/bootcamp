@@ -68,7 +68,19 @@ console.log(9+7 || 19+9);  //16 ----> it dont check for other side take the firs
  // 2) by using [] operator
 
  console.log(capitals.andhra);
- console.log(capitals["stateOfTelangana"]);
+ console.log(capitals["stateOfTelangana"]); 
+
+ //call by value vs call by reference
+
+  var sampleobj= {
+      "name": "raja"
+  };
+  var sampleobj2 = sampleobj;        // address is passed not value
+  sampleobj2.name = "Awesome";
+  console.log(sampleobj);
+  console.log(sampleobj2);
+
+
 
 
 
