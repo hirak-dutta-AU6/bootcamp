@@ -54,7 +54,25 @@ console.log(9+7 || 19+9);  //16 ----> it dont check for other side take the firs
  console.log(str1.slice(-4));
  console.log(str1.substr(1,5));
 
- 
+ // uppercase and lowercasre conversion
+ var str3 = "ABC"
+ console.log(str3.toLowerCase());
+ console.log("good".toUpperCase());
+
+ // objects
+ var obj1= {};  //object literals
+ var capitals= {"andhra":"amravati", "stateOfTelangana": "hyderabad"}; //json object
+
+ // there are basically two ways to access javascript object properties
+ // 1) by using . operator
+ // 2) by using [] operator
+
+ console.log(capitals.andhra);
+ console.log(capitals["stateOfTelangana"]);
+
+
+
+
 
 
 
