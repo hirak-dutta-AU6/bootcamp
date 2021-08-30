@@ -81,9 +81,43 @@ console.log(9+7 || 19+9);  //16 ----> it dont check for other side take the firs
   console.log(sampleobj2);
 
 
+// switch statement from predefined list of cases
+// for loop 
+//iterate till the condition is met
+var count =100;
+for (var i=0; i<count; i++)
+{
+
+    console.log("picked"+ i + "th apple");
+    
+}
+
+// i=0---> initializing happens only once
+// i<count---> conditional check
+// i++ --> increment
 
 
+//program to print even numbers, if the number is divisible by 2, it is caklled as even no.
+// remainder is 0,2 ,4
 
+ for (var k=2; k<=100; k++);
+ {
+     if (k%2 == 0)
+     {
+         console.log(k);
+     }
+ }
+
+
+ //program to print odd number.. remainder is 1
+
+
+ for (var m= 1; m<=100; m++)
+ {if (m%2==1){
+     console.log(m);
+ }}
+
+ 
 
 
 
