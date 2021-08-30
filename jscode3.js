@@ -117,11 +117,33 @@ for (var i=0; i<count; i++)
      console.log(m);
  }}
 
- 
+ // palindreome
+
+ var str9 = "madam";
+ var str10 = "";
+ for (var h= str9.length-1; h>=0; h--)
+
+ {
+     str10 =  str10+ str9.charAt(h);
+}
+console.log(str10);
+if(str9== str10){
+    console.log("pallindrome")
+}
+else{
+    console.log("not a pallindrome");
+}
 
 
+// you can try solving  using  slice
+// for in loop..  this loop is used to iterate objects
 
-
+ var student= {" firstname": "raja", "lastname": " rama", "age": 20};
+ for (var key in student)
+ {
+     console.log(key);
+     console.log(student[key]);
+ } 
 
 
 
